@@ -1,9 +1,8 @@
+"use client";
 import styles from "./GlobalContainer.module.css";
 
-export const GlobalContainer = () => {
+const GlobalContainer = () => {
   return <div className={styles.container} />;
 };
 
-export const GlobalContainerPortal = () => {
-  return <div />;
-};
+export default GlobalContainer;
